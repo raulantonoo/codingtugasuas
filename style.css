@@ -1,0 +1,175 @@
+body {
+    background-color: #222;
+    margin-top: 57px;
+}
+
+.card>img {
+    width: 200px;
+    height: 200px;
+}
+
+.list-grub {
+    padding-top: 10px;
+}
+
+.isi-content {
+    background-color: #ffffff;
+}
+
+footer {
+    min-height: 60px;
+    padding-top: 15px;
+    color: rgb(133, 130, 130);
+    text-align: center;
+}
+
+.copyright>a {
+    color: #eee;
+    text-decoration: none;
+}
+
+.judul>img {
+    width: 641px;
+    height: 360px;
+    padding-top: 15px;
+}
+
+.isi-content-text {
+    padding-top: 15px;
+    font-family: 'Times New Roman';
+    text-align: justify;
+
+}
+
+/* about */
+
+.about>img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #333;
+}
+
+.about>h1 {
+    font-family: 'Times New Roman';
+}
+
+.about>p {
+    padding-top: 15px;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+}
+
+.isi {
+    background-color: rgb(126, 126, 126);
+    min-width: 100%;
+    min-height: 400px;
+    padding-top: 20px;
+}
+
+.section-about {
+    background-color: #eee;
+    min-height: 400px;
+    padding-top: 25px;
+}
+
+/* end about */
+.portfolio {
+    background-color: rgb(126, 126, 126);
+    min-height: 698px;
+}
+
+/* contact */
+.contact- {
+    background-color: rgb(126, 126, 126);
+    min-height: 665px;
+    padding-top: 15px;
+}
+
+.text>h5 {
+    font-family: 'Times New Roman';
+}
+
+
+
+/* end contact */
+
+/* find me */
+
+.findme {
+    background-color: rgb(126, 126, 126);
+    min-height: 665px;
+    min-width: 100%;
+    padding-top: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.contact-info {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.card-find {
+    background: #222;
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.card-icon {
+    font-size: 28px;
+    background: #444;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+}
+
+.card-find:hover .card-icon {
+    background: none;
+    color: #444;
+    transform: scale(1.6);
+}
+
+
+.card-find p {
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+
+.card-find:hover p {
+    max-height: 40px;
+    opacity: 1;
+}
+
+
+@media screen and (max-width:800px) {
+    .contact-info {
+        flex-direction: column;
+    }
+
+    .card-find {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
